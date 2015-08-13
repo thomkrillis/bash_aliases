@@ -1,5 +1,9 @@
 alias sudo='sudo '
 
+##########
+# Git aliases
+##########
+
 alias g='git'
 
 alias gs='g status'
@@ -39,15 +43,35 @@ alias gdos='gdo source'
 alias guus='guu source'
 alias gdus='gdu source'
 
+##########
+# Clean and Build Gulp, add changes to git, and continue rebasing
+##########
+
 alias reup='gulp && git add -u && git rebase --continue'
 
+##########
+# Go to main working directory
+##########
+
 alias go='cd ~/Documents/Github/thehackerati.github.io'
+
+##########
+# Reload configurations
+##########
 
 alias ts='tmux source ~/.tmux.conf'
 
 alias bs='source ~/.bashrc'
 
+##########
+# Start Android Studio
+##########
+
 alias android='bash /usr/local/android-studio/android-studio/bin/studio.sh & disown'
+
+##########
+# Reconnect to internet
+##########
 
 alias decon='sudo rmmod rtl8723be'
 alias recon='sudo modprobe rtl8723be'
