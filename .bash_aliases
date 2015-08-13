@@ -8,6 +8,7 @@ alias g='git'
 
 alias gs='g status'
 alias gl='g log'
+alias gf='g diff'
 alias gb='g branch'
 alias gch='g checkout'
 alias gr='g rebase'
