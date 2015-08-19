@@ -34,8 +34,8 @@ alias gstp='gst pop'
 alias gstl='gst list'
 alias gth='g reset --hard'
 
-alias gchm='gch m'
-alias gchu='gch u'
+alias gchm='gch master'
+alias gchs='gch source'
 
 alias guo='gu origin'
 alias gdo='gd origin'
