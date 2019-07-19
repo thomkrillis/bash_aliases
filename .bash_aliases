@@ -69,4 +69,10 @@ alias go='cd ~/Documents/Github'
 
 alias ts='tmux source ~/.tmux.conf'
 
-alias bs='source ~/.bashrc'
+alias bs='source ~/.bash_profile'
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/bobby.yankou/google-cloud-sdk/path.bash.inc' ]; then . '/Users/bobby.yankou/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/bobby.yankou/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/bobby.yankou/google-cloud-sdk/completion.bash.inc'; fi
